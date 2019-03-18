@@ -22,7 +22,7 @@ export class ReadAction extends BaseAction {
       auth: action.auth,
       query: { limit: 100 },
     });
-    const routes = sites.data.map((site: any) => new RouteView(site.id, site.url));
+    const routes = sites.data.map((site: any) => new RouteView(site.id, site.url, site.title));
 
     return new FullSettingsView(settings.title, routes, settings.logo);
   }

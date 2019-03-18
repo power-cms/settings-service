@@ -1,6 +1,6 @@
 {
   "name": "@power-cms/settings-service",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PowerCMS - Settings service",
   "repository": "https://github.com/power-cms/settings-service",
   "scripts": {

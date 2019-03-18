@@ -7,6 +7,7 @@ import { CreateAction } from './create.action';
 
 const properRoute = {
   id: 'fake-id',
+  title: 'Home',
   url: '/home',
 };
 
